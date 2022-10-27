@@ -1,0 +1,46 @@
+* {
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#calculator {
+    background-color: rgb(55, 55, 55);
+    width: 250px;
+}
+
+.current-operand,
+.previous-operand {
+    height: 40px;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    border: none;
+    margin: 3px;
+}
+
+.operator {
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#equals {
+    width: 200px;
+    height: 35px;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
